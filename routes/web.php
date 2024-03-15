@@ -31,6 +31,10 @@ Route::get('/LoginAdmin', function () {
     return view('/admin/LoginAdmin');
 });
 
+Route::get('/RuangBelajar', function () {
+    return view('/RuangBelajar');
+});
+
 
 
 

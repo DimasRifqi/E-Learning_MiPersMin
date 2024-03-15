@@ -7,11 +7,11 @@
 
     @vite(['resources/css/app.css','resources/js/app.js'])
     <title>Home</title>
-    {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet"> --}}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-white">
 
 <nav class="bg-white dark:bg-gray-900 fixed top-0 w-full z-10">
     <div class="container mx-auto px-4">
