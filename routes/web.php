@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+
 Route::get('/contact', function () {
     return view('contact');
 });
@@ -28,3 +30,8 @@ Route::get('/RegisterAdmin', function () {
 Route::get('/LoginAdmin', function () {
     return view('/admin/LoginAdmin');
 });
+
+
+
+
+
