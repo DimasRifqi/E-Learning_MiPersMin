@@ -28,8 +28,3 @@ Route::get('/RegisterAdmin', function () {
 Route::get('/LoginAdmin', function () {
     return view('/admin/LoginAdmin');
 });
-
-
-
-
-
